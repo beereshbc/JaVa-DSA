@@ -1,6 +1,6 @@
 public class Patterns {
     public static void main(String[] args) {
-    pattern7(5);
+    pattern8(5);
     }
 
     static void  pattern1(int n){
@@ -109,6 +109,26 @@ public class Patterns {
             System.out.println();
 
         }
+    }
+
+    static void pattern8(int n){
+        int originalN = n;
+        n = 2*n;
+
+        for (int row = 1; row <n; row++) {
+            for (int col = 1; col <n ; col++) {
+                int IndVal = originalN -Math.min(Math.min(row,col), Math.min(n -row, n-col))+1;
+
+                        System.out.print(IndVal+ " ");
+
+
+
+
+            }
+            System.out.println();
+
+        }
+
     }
 
 
