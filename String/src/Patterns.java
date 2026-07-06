@@ -123,7 +123,6 @@ public class Patterns {
 
 
 
-
             }
             System.out.println();
 
