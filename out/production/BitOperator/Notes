@@ -1,0 +1,4 @@
+#Newton Raphson Method to find square root
+
+---> root = ((X + N/X)/2)
+>>Why
