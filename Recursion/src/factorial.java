@@ -6,9 +6,7 @@ public class factorial {
        if (n==1){
            return n;
        }
-       int res = n;
-      res = res*fact(n-1);
-      return  res;
+      return  n*fact(n-1);
 
     };
 }
