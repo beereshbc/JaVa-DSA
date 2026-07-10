@@ -5,3 +5,9 @@
 
 #Foctors of Number
 -->A number divides other number called factores
+
+---> Properties of modulus
+#(a+b)%m = ((a%m) + (b%m)) % m
+#(a-b)%m = ((a%m) - (b%m)+m) % m
+#(a*b)%m = ((a%m) * (b%m)) % m
+#(a/b)%m = ((a%m) * (b^-1 %m)) % m

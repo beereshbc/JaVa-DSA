@@ -1,4 +1,7 @@
 public class CountSteps {
+
+  //1342. Number of Steps to Reduce a Number to Zero
+
     static void main(String[] args) {
 
         System.out.println(numberOfSteps(8));
