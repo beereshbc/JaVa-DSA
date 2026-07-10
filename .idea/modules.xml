@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/BitOperator/BitOperator.iml" filepath="$PROJECT_DIR$/BitOperator/BitOperator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JaVa.iml" filepath="$PROJECT_DIR$/.idea/JaVa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LC/LC.iml" filepath="$PROJECT_DIR$/LC/LC.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinearSearch/LinearSearch.iml" filepath="$PROJECT_DIR$/LinearSearch/LinearSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sort/Sort.iml" filepath="$PROJECT_DIR$/Sort/Sort.iml" />
