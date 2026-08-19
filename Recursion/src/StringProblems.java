@@ -1,7 +1,7 @@
 public class StringProblems {
 
    public static void main(String[] args) {
-       System.out.println(skip( "abbghahgai"));
+       System.out.println(skipApple( "abbaapplei"));
 
     }
 
@@ -34,6 +34,18 @@ public class StringProblems {
         } else {
           return   ch + skip(up.substring(1));
         }
+    }
+
+    static String skipApple(String up){
+       if (up.isEmpty()){
+         return "";
+       }
+    char ch = up.charAt(0);
+       if (up.startsWith("apple")){
+          return skipApple(up.substring(5));
+       } else {
+           return ch+ skipApple(up.substring(1));
+       }
     }
 
 
