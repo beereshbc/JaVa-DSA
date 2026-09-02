@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 public class NC217 {
 
    public static void main(String[] args) {
@@ -5,15 +7,15 @@ public class NC217 {
        System.out.println(containsDuplicate(arr));
     }
     static boolean containsDuplicate(int[] nums) {
+       HashSet <Integer> seenNumber = new HashSet<>();
 
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i+1; j < nums.length; j++) {
-                if (nums[i] == nums[j]){
-                    return true;
-                }
-            }
-        }
-        return false;
+       for(int num : nums){
+           if (seenNumber.contains(num)){
+               return true;
+           }
+           seenNumber.add(num);
+       }
+       return false;
 
     }
 
