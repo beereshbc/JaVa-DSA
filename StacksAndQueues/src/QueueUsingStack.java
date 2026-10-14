@@ -11,7 +11,13 @@ public class QueueUsingStack {
     }
 
     public void add(int item){
+        if (!first.isEmpty()){
+            second.push(first.pop());
+        }
         first.push(item);
+        if (!second.isEmpty()){
+            first.push(second.pop());
+        }
     }
 
     public int peek() throws Exception{
@@ -27,15 +33,7 @@ public class QueueUsingStack {
     }
 
     public int remove() throws Exception{
-        if (!first.isEmpty()){
-           second.push(first.pop());
-        }
-
-        int removed = second.pop();
-        while (!second.isEmpty()){
-            first.push(removed);
-        }
-        return removed;
+        return first.pop();
     }
 
 }
